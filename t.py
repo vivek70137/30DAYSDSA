@@ -9,7 +9,7 @@ for i in range(len(n)-1):
         
 else:
     print('gg')
-print(n.max())
+
     
             
             
