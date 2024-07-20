@@ -11,6 +11,15 @@ for i in range(len(n)):
         seen.add(n[i])
 
 print(k)
+s=set()
+k=0
+v="shivaprasad"
+for i in range(len(v)):
+    if(v[i] in s):
+        k+=1
+    else:
+        s.add(v[i])
+print(k)
     
             
             
