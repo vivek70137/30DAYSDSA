@@ -1,0 +1,21 @@
+class Solution:
+    def transformString(self, n: str) -> str:
+        c = 0
+        s = 0
+
+        for i in n:
+            if 'A' <= i <= 'Z':
+                c += 1
+            elif 'a' <= i <= 'z':
+                s += 1
+
+        if c > s:
+            return n.upper()
+        elif c < s:
+            return n.lower()
+        else:
+            return n  # If the counts are equal, return the original string
+
+# Example usage:
+solution = Solution()
+print(solution.transformString('Abbb'))  # Output: abbb
