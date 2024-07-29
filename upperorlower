@@ -19,3 +19,26 @@ class Solution:
 # Example usage:
 solution = Solution()
 print(solution.transformString('Abbb'))  # Output: abbb
+#or 
+class Solution:
+    def transformString(self, n: str) -> str:
+        c = 0
+        s = 0
+
+        for i in n:
+            if 65 <= ord(i) <= 90:
+                c += 1
+            elif 97 <= ord(i) <= 122:
+                s += 1
+
+        if c > s:
+            return n.upper()
+        elif c < s:
+            return n.lower()
+        else:
+            return n  # If the counts are equal, return the original string
+
+# Example usage:
+solution = Solution()
+print(solution.transformString('Abbb'))  # Output: abbb
+
