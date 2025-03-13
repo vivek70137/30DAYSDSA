@@ -1,0 +1,49 @@
+# a={}
+# c=0
+# b= ['r', 'g', 'b', 'b', 'g', 'y', 'y']
+# for i in range(len(b)):
+#     if b[i] in a:
+#         a[i]+=1
+#     else:
+#         a[i]=1
+# for i in range(len(a)):
+#     if a[i]%2 != 0:
+#         print('hh')
+#         break
+#     else:
+#         print('jhh')
+# a = {}
+# b = ['r', 'g', 'b', 'b', 'g', 'y', 'y']
+
+# # Count the occurrences of each element in b
+# for i in range(len(b)):
+#     if b[i] in a:
+#         a[b[i]] += 1  # Use b[i] to access the balloon color
+#     else:
+#         a[b[i]] = 1
+
+# # Check for odd occurrences
+# for key in a:
+#     if a[key] % 2 != 0:
+#         print(f"{key} is the balloon with an odd count")
+#         break
+# else:
+
+#     print("All are even")
+# a = {}
+# b = ['r', 'g', 'b', 'b', 'g', 'y', 'y']
+
+# Count the occurrences of each element in b
+# for i in range(len(b)):
+#     if b[i] in a:
+#         a[b[i]] += 1  # Use b[i] to access the balloon color
+#     else:
+#         a[b[i]] = 1
+
+# # Check for odd occurrences
+# for key in a:
+#     if a[key] % 2 != 0:
+#         print(f"{key} is the balloon with an odd count")
+#         break
+# else:
+#     print("All are even")
