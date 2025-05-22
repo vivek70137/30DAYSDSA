@@ -1,13 +1,13 @@
-def move_zeros(nums):
-    s = []
-    for i in range(len(nums)):
-        if nums[i] != 0:
-            nums[s] = nums[i]
-            s += 1
-    while s < len(nums):
-        nums[s] = 0
-        s += 1
-    return s
+a=[1,0,7,0,4]
+h=[]
+for i in range(len(a)):
+    if a[i] !=0 :
+        h.append(a[i])
+while len(h)<len(a):
+    h.append(0)
+    
+print(h)    
+    
 
 # Example usage:
 ##nums = [0, 1, 0, 3, 12]
